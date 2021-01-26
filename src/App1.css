@@ -1,0 +1,43 @@
+ ul {
+    list-style-type: none;
+    /* overflow:hidden; */
+
+    display: grid;
+ 
+    grid-template-columns: repeat(4, 1fr);
+    /* display: grid;
+    grid-template-columns: 100px 100px 100px; 
+   */
+   
+    grid-column-gap: 40px;
+    grid-row-gap: 70px; 
+}
+.container {
+    background-color: #3e2723;
+    padding: 30px;
+    border-radius: 10px;  
+  }
+
+li  {
+
+    background-color: #80cbc4;
+    border: 1px solid #fff;
+    padding: 75px;
+    font-size: 30px;
+    text-align: center;
+  
+    /* display:inline-block; */
+  }
+
+  
+  li:nth-child(even) {
+    background-color: red;
+    position: relative;
+    top: 30px;
+  
+     
+    
+  }
+  
+
+  
